@@ -1,0 +1,51 @@
+{
+  "name": "hapi-authorized-scope",
+  "description": "hapi plugin to require multiple authentication strategies",
+  "version": "0.0.0",
+  "author": "Marcus Pöhls <marcus@futurestud.io>",
+  "bugs": {
+    "url": "https://github.com/futurestudio/hapi-authorized-scope/issues"
+  },
+  "devDependencies": {
+    "@hapi/code": "~6.0.0",
+    "@hapi/hapi": "~18.4.0",
+    "@hapi/lab": "~20.4.0",
+    "eslint": "~6.5.1",
+    "eslint-config-standard": "~14.1.0",
+    "eslint-plugin-import": "~2.18.2",
+    "eslint-plugin-node": "~10.0.0",
+    "eslint-plugin-promise": "~4.2.1",
+    "eslint-plugin-standard": "~4.0.1",
+    "husky": "~3.0.8"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/futurestudio/hapi-authorized-scope#readme",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  },
+  "keywords": [
+    "hapi",
+    "hapi.js",
+    "hapijs",
+    "plugin",
+    "auth",
+    "scopes",
+    "authorization"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futurestudio/hapi-authorized-scope.git"
+  },
+  "scripts": {
+    "format": "eslint **/*.js --fix",
+    "lint": "eslint **/*.js",
+    "test": "lab --coverage --leaks --lint"
+  },
+  "dependencies": {}
+}
