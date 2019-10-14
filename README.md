@@ -69,7 +69,7 @@ npm i hapi-authorized-scope
 
 
 ## Usage
-The usage is pretty straightforward: register the plugin to your hapi server and that's it:
+The usage is pretty straightforward: register the plugin to your hapi server and that’s it:
 ```js
 await server.register({
   plugin: require('hapi-authorized-scope')
