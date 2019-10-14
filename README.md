@@ -41,7 +41,21 @@ Join the <a href="https://futurestud.io/university">Future Studio University and
 
 
 ## Introduction
-Tbd.
+The `hapi-authorized-scope` plugin determines and stores the scope that authorized an authenticated request in `request.auth.authorizedScope`. In hapi, you'll find all auth-related details in `request.auth`, that's the reason this plugin adds the `authorizedScope` property there:
+
+```js
+{
+  isAuthenticated: true,
+  isAuthorized: true,
+  credentials: { username: 'marcus', scope: ['admin', 'user'] },
+  artifacts: null,
+  strategy: 'test',
+  mode: 'required',
+  error: null,
+  isInjected: true,
+  authorizedScope: 'user'  // <-- added: the authorized scope that let the user access a route
+}
+```
 
 
 ## Installation
@@ -53,8 +67,7 @@ npm i hapi-authorized-scope
 
 
 ## Usage
-Tba.
-
+The usage is pretty straightforward: register the plugin to your hapi server and that's it:
 ```js
 await server.register({
   plugin: require('hapi-authorized-scope')
@@ -63,12 +76,25 @@ await server.register({
 // went smooth like chocolate :)
 ```
 
-Tba.
+`hapi-authorized-scope` extends the request lifecycle `onPostAuth` and finds the first scope in the authenticated credentials that authorizes the request to access the route.
+
+In your route handlers or request lifecycle extension points, you may access the authorized scope like this:
 
 ```js
-async (request, h) {
-  const authorizedScope = request.auth.authorizedScope
+{
+  method: 'GET',
+  path: '/profile',
+  options: {
+    handler: async (request, h) {
+      const authorizedScope = request.auth.authorizedScope
+
+      Logger.debug(`Scope authorizing the user to access this route: ${authorizedScope}`)
+
+      return h.view('profile')
+    }
+  }
 }
+
 ```
 
 Enjoy!
