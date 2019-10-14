@@ -1,10 +1,8 @@
 <div align="center">
-  <!-- <img
-    width="571" style="max-width:100%;"
+  <img
+    width="557" style="max-width:100%;"
     src="https://github.com/futurestudio/hapi-authorized-scope/blob/master/media/hapi-authorized-scope.png?raw=true"
-    alt="hapi-authorized-scope logo"> -->
-    <p>
-    <pre>hapi-authorized-scope</pre></p>
+    alt="hapi-authorized-scope logo">
   <br/>
   <br/>
   <p>
