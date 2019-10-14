@@ -46,6 +46,5 @@
     "format": "eslint **/*.js --fix",
     "lint": "eslint **/*.js",
     "test": "lab --coverage --leaks --lint"
-  },
-  "dependencies": {}
+  }
 }
