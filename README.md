@@ -41,7 +41,9 @@ Join the <a href="https://futurestud.io/university">Future Studio University and
 
 
 ## Introduction
-The `hapi-authorized-scope` plugin determines and stores the scope that authorized an authenticated request in `request.auth.authorizedScope`. In hapi, you'll find all auth-related details in `request.auth`, that's the reason this plugin adds the `authorizedScope` property there:
+The `hapi-authorized-scope` plugin determines and stores the scope that authorized an authenticated request. You'll find the scope authorizing the request in `request.auth.authorizedScope`.
+
+In hapi, you’ll find all auth-related details in `request.auth`, that’s the reason this plugin adds the `authorizedScope` property there:
 
 ```js
 {
