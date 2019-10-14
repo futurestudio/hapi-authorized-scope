@@ -1,7 +1,7 @@
 {
   "name": "hapi-authorized-scope",
   "description": "hapi plugin to require multiple authentication strategies",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Marcus Pöhls <marcus@futurestud.io>",
   "bugs": {
     "url": "https://github.com/futurestudio/hapi-authorized-scope/issues"
