@@ -20,7 +20,6 @@
   <br/>
   <p>
     <a href="https://travis-ci.com/futurestudio/hapi-authorized-scope"><img src="https://travis-ci.com/futurestudio/hapi-authorized-scope.svg?branch=master" alt="Build Status" data-canonical-src="https://travis-ci.com/futurestudio/hapi-authorized-scope.svg?branch=master" style="max-width:100%;"></a>
-    <a href="https://snyk.io/test/github/futurestudio/hapi-authorized-scope"><img src="https://snyk.io/test/github/futurestudio/hapi-authorized-scope/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/futurestudio/hapi-authorized-scope" style="max-width:100%;"></a>
     <a href="https://www.npmjs.com/package/hapi-authorized-scope"><img src="https://img.shields.io/npm/v/hapi-authorized-scope.svg" alt="hapi-authorized-scope Version"></a>
     <a href="https://www.npmjs.com/package/hapi-authorized-scope"><img src="https://img.shields.io/npm/dt/hapi-authorized-scope.svg" alt="Total downloads"></a>
     <a href="https://greenkeeper.io/" rel="nofollow"><img src="https://badges.greenkeeper.io/futurestudio/hapi-authorized-scope.svg" alt="Greenkeeper badge" data-canonical-src="https://badges.greenkeeper.io/futurestudio/hapi-authorized-scope.svg" style="max-width:100%;"></a>
