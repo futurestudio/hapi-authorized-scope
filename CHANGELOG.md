@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [2.0.0](https://github.com/futurestudio/hapi-authorized-scope/compare/v1.1.0...v2.0.0) - 2020-xx-xx
+
+### Breaking Changes
+- require hapi v19
+- require Node.js v12
+
+
 ## [1.1.0](https://github.com/futurestudio/hapi-authorized-scope/compare/v1.0.1...v1.1.0) - 2019-10-17
 
 ### Added
