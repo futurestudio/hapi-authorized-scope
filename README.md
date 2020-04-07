@@ -18,7 +18,6 @@
   <p>
     <a href="https://travis-ci.com/futurestudio/hapi-authorized-scope"><img src="https://travis-ci.com/futurestudio/hapi-authorized-scope.svg?branch=master" alt="Build Status" data-canonical-src="https://travis-ci.com/futurestudio/hapi-authorized-scope.svg?branch=master" style="max-width:100%;"></a>
     <a href="https://www.npmjs.com/package/hapi-authorized-scope"><img src="https://img.shields.io/npm/v/hapi-authorized-scope.svg" alt="hapi-authorized-scope Version"></a>
-    <a href="https://greenkeeper.io/" rel="nofollow"><img src="https://badges.greenkeeper.io/futurestudio/hapi-authorized-scope.svg" alt="Greenkeeper badge" data-canonical-src="https://badges.greenkeeper.io/futurestudio/hapi-authorized-scope.svg" style="max-width:100%;"></a>
   </p>
   <p>
     <em>Follow <a href="http://twitter.com/marcuspoehls">@marcuspoehls</a> for updates!</em>
