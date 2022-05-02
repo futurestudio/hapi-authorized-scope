@@ -7,7 +7,7 @@
     "url": "https://github.com/futurestudio/hapi-authorized-scope/issues"
   },
   "devDependencies": {
-    "@hapi/code": "~8.0.1",
+    "@hapi/code": "~9.0.0",
     "@hapi/hapi": "~20.2.0",
     "@hapi/lab": "~24.6.0",
     "eslint": "~7.32.0",
